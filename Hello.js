@@ -1,10 +1,10 @@
 export default function Hello(app) {
 
     app.get('/hello', (req, res) => {
-      res.send('Hello!')
+      res.send('Life is good!')
     });
     app.get('/', (req, res) => {
-      res.send('Welcome to Webdev!')
+      res.send('Welcome to Full Stack Development!')
     });
     
     }
